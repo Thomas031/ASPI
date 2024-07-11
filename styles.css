@@ -128,14 +128,14 @@ footer {
     padding: 1em 0;
 }
 
-/* Styles spécifiques pour la page des mentions légales */
-#legal h3 {
+/* Styles spécifiques pour les pages légales */
+#legal h3, #privacy-policy h3, #terms-of-use h3, #terms-of-sale h3, #cookie-policy h3 {
     margin-top: 1em;
     font-size: 1.5em;
     color: #444;
 }
 
-#legal p {
+#legal p, #privacy-policy p, #terms-of-use p, #terms-of-sale p, #cookie-policy p {
     margin-bottom: 1em;
     font-size: 1em;
     line-height: 1.6;
