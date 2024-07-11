@@ -79,6 +79,18 @@ h2 {
     color: #444;
 }
 
+h3 {
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: #444;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
 /* Formulaire de contact */
 form {
     display: flex;
@@ -113,6 +125,32 @@ form button:hover {
     background-color: #ff6347; /* Couleur de survol */
 }
 
+/* Liste des services */
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-item {
+    flex: 1 1 calc(50% - 1em);
+    background: white;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.service-item h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #ff6347;
+}
+
+.service-item p {
+    margin-bottom: 0.5em;
+}
+
 /* Licence */
 #license p {
     margin-top: 1em;
@@ -125,20 +163,28 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
-/* Styles spécifiques pour les pages légales */
-#legal h3, #privacy-policy h3, #terms-of-use h3, #terms-of-sale h3, #cookie-policy h3 {
-    margin-top: 1em;
-    font-size: 1.5em;
-    color: #444;
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
 }
 
-#legal p, #privacy-policy p, #terms-of-use p, #terms-of-sale p, #cookie-policy p {
-    margin-bottom: 1em;
-    font-size: 1em;
-    line-height: 1.6;
+footer nav ul li {
+    margin: 0 1em;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer nav ul li a:hover {
+    color: #ff6347; /* Couleur de survol */
 }
 
 /* Liens */
